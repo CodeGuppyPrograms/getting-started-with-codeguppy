@@ -9,3 +9,14 @@ Afterall, coding is all about typing programs using the keyboard.
 How CodeGuppy enables type-in programs? Very simple: all assets and libraries come included! Users don’t need to focus on project organization or asset management. They only need to open the code editor and type the program.
 
 > Educators and parents can leverage this feature and hand over printed code listings to kids so they can exercise typing.
+
+```
+// #SKETCHNAME Type-In
+// This program can be found in a magazine...
+background('Icebergs');
+sprite('santa', 0.9);
+
+stroke("Red")
+textSize(30);
+text("We wish you a Merry Christmas!", 150, 30);
+```
