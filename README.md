@@ -1,8 +1,6 @@
-#CodeGuppy for p5.js connoisseurs
+# What is CodeGuppy?
 
 ![Image](thumb.png)
-
-# What is CodeGuppy?
 
 [codecuppy.com](https://codeguppy.com) is an online environment where kids, teens and creative adults learn and practice JavaScript via creative coding.
 
