@@ -4,7 +4,7 @@
 
 # What is CodeGuppy?
 
-CodeGuppy.com is an online environment where kids, teens and creative adults learn and practice JavaScript via creative coding.
+[codecuppy.com](https://codeguppy.com) is an online environment where kids, teens and creative adults learn and practice JavaScript via creative coding.
 
 CodeGuppy is based on the popular [p5.js](https://p5js.org/), [p5.play](http://molleindustria.github.io/p5.play/) and [p5.scenemanager](https://github.com/mveteanu/p5.SceneManager) libraries. 
 
@@ -413,3 +413,8 @@ Note: Some collision functions are duplicated for convenience:
 - `collisionLinePoint(lineX1, lineY1, lineX2, lineY2, pointX, pointY)`
 - `collisionRectCircle(rectX, rectY, rectWidth, rectHeight, circleX, circleY, circleR)`
 - `collisionRectPoint(rectX, rectY, rectWidth, rectHeight, pointX, pointY)`
+
+
+# More info
+
+For more info, please visit [codecuppy.com](https://codeguppy.com)
