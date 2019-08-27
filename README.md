@@ -54,11 +54,11 @@ Did you know you can have lots of fun with just one function? Checkout this code
 // Draw bear face
 circle(400, 300, 200);
 
-// Draw left year
+// Draw left ear
 circle(250, 100, 50);
 circle(270, 122, 20);
 
-// Draw right year
+// Draw right ear
 circle(550, 100, 50);
 circle(530, 122, 20);
 
