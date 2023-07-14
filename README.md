@@ -1,4 +1,6 @@
-# What is CodeGuppy?
+# Getting Started with codeguppy.com - a p5.js and p5play based platform
+
+## What is CodeGuppy?
 
 ![Image](thumb.png)
 
@@ -13,7 +15,7 @@ This tutorial is indended for:
 - users that are familiar with p5.js and are coming to CodeGuppy
 - users that want to graduate from CodeGuppy to p5.js
 
-# No setup()
+## No setup()
 
 Users familiar with p5.js know that one of the first functions they have to define in their sketch is the `setup()` function.
 
@@ -25,7 +27,7 @@ CodeGuppy automatically initiate the canvas to 800x600 resolution.
 circle(400, 300, 200);
 ```
 
-# Gentle introduction to programming
+## Gentle introduction to programming
 
 In a typical p5.js sketch, the users are typically typing their own code after at least `setup()` function is defined.
 
@@ -42,7 +44,7 @@ for(var i = 0; i < 100; i++)
 }
 ```
 
-# Enriched drawing API
+## Enriched drawing API
 
 CodeGuppy enriches the p5.js drawing APIs with a few new functions that are easier to use and understand by young coders.
 
@@ -75,7 +77,7 @@ circle(400, 400, 90);
 circle(400, 350, 20);
 ```
 
-# CodeGuppy defaults
+## CodeGuppy defaults
 
 CodeGuppy changes a few of the p5.js defaults to different values.
 
@@ -91,7 +93,7 @@ stroke("White");
 ellipse(400, 300, 300, 300);
 ```
 
-# Built-in assets
+## Built-in assets
 
 CodeGuppy comes with assets built-in. This allows users to focus on writing code, rather than organizing projects or managing assets. This is what enables “type-in” programs.
 
@@ -119,7 +121,7 @@ music('8 bit retro');
 sound('female_congratulations');
 ```
 
-# Sprites
+## Sprites
 
 CodeGuppy comes with a library of pre-selected sprites. Many of the included sprites are animated. The CodeGuppy runtime takes care of proper animation display by leveraging the p5.play library.
 
@@ -133,7 +135,7 @@ You can also specify, the size of the sprite, the animation that you want to dis
 sprite("plane").velocity.x = 1;
 ```
 
-# Preloading assets
+## Preloading assets
 
 In majority cases users are using background, music, sound, sprite with static arguments. This allow CodeGuppy environment to determine the assets used by a program and pre-load them automatically.
 
@@ -146,7 +148,7 @@ var scene = random(["Scene1", "Scene2"]);
 background(scene);
 ```
 
-# Type-in programs
+## Type-in programs
 
 With CodeGuppy, type-in programs are back! Popular in the 70s and 80s, type-in programs were small programs included in magazines or other printed materials that required users to enter them from the keyboard.
 
@@ -168,7 +170,7 @@ textSize(30);
 text("We wish you a Merry Christmas!", 150, 30);
 ```
 
-# 5 layers
+## 5 drawing layers
 
 CodeGuppy programs use up to 5 layers:
 
@@ -208,7 +210,7 @@ function loop()
 }
 ```
 
-# Setting the background
+## Setting the background
 
 The `background()` function operates in the background layer. 
 
@@ -224,7 +226,7 @@ background("Hearts");
 // background("#104210");
 ```
 
-# Games and Animations 
+## Games and Animations 
 
 The most popular way of building games and animations is by implementing the “game loop” pattern. In p5.js sketches, the game loop is implemented via the `draw()` function.
 
@@ -250,7 +252,7 @@ function loop()
 }
 ```
 
-# Multi-scene games
+## Multi-scene games
 
 Scene management is a common topic when building games. Even the most basic games have at least three scenes: an intro scene, the main game scene and the credits scene.
 
@@ -262,7 +264,7 @@ You can optionally pass arguments to the new scene you’re switching.
 
 To perform initialization actions when a scene is displayed, you can define an `enter()` function in each scene. This function will be automatically called when that scene is displayed.
 
-## Scene: Intro
+### Scene: Intro
 
 ```
 function enter()
@@ -278,7 +280,7 @@ function mouseClicked()
 }
 ```
 
-## Scene: Game
+### Scene: Game
 
 ```
 background("Scene2");
@@ -293,7 +295,7 @@ function mouseClicked()
 }
 ```
 
-## Scene: Credits
+### Scene: Credits
 
 ```
 function enter()
@@ -318,7 +320,7 @@ function mouseClicked()
 
 ```
 
-# Modules
+## Modules
 
 As presented before, the code pages from the CodeGuppy editor are mostly used for writing code for scenes.
 
@@ -326,7 +328,7 @@ A second use of the code pages is for defining code modules. This usage is inten
 
 > Note: the `require()` function is executing the code of that module upon each invocation.
 
-## Main Code
+### Main Code
 
 ```
 var utils = require("Utils");
@@ -338,7 +340,7 @@ var r2 = utils.mult(100, 200);
 println(r2);
 ```
 
-## Utils
+### Utils
 
 ```
 function add(n1, n2)
@@ -352,7 +354,7 @@ function mult(n1, n2)
 }
 ```
 
-# Support “text-based output” programs
+## Support “text-based output” programs
 
 When teaching coding or when building algorithms / math programs it is very convenient to just print the results on the screen.
 
@@ -371,7 +373,7 @@ for(var i = 0; i < 10; i++)
 }
 ```
 
-# Support “INPUT” programs
+## Support “INPUT” programs
 
 If you’re building string processing programs, or even some games, you often need to ask for user input. For instance, to enter a long text using the keyboard.
 
@@ -394,7 +396,7 @@ function handleButton1Click()
 }
 ```
 
-# Other APIs
+## Other APIs
 
 CodeGuppy contains also other useful APIs that help you easily build games and fun applications. For instance users may find particular useful the APIs for collision detection:
 
@@ -413,6 +415,6 @@ Note: Some collision functions are duplicated for convenience:
 - `collisionRectPoint(rectX, rectY, rectWidth, rectHeight, pointX, pointY)`
 
 
-# More info
+## More info
 
 For more info, please visit [codecuppy.com](https://codeguppy.com)
